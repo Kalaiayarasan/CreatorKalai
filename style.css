@@ -148,6 +148,32 @@ nav {
   padding-top: 80px;
 }
 
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 400px; /* Adjust this value to make it smaller or larger */
+  height: auto;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
 .hero-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(60px, 10vw, 120px);
@@ -194,4 +220,5 @@ nav {
   .nav-links { display: none; }
   .hero { flex-direction: column; text-align: center; height: auto; padding-bottom: 50px; }
   .section-title { font-size: 45px; }
+  .hero-img { max-width: 300px; margin-top: 40px; }
 }
